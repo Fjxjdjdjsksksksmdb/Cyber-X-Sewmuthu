@@ -23,7 +23,7 @@
 
 require('./settings')
 const { default: BixbyMDConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
-const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
+const { state, saveState } = useSingleFileAuthState(`./${2@yQGOi0Q+UaqO/7Lm8kV7ueshWO8AVoTlMneEAgQGM8RuLKYe63A1xwf2LYk/XvCYs0V4JZho4wvecA==,CH6HOUxn0F02IOcd19aiGM1u4n9ojEoacODa2hbldEc=,MhWg2lX+OkDQC2O9nayOE+AhQg1FczUAlRN8FvorvUw=,eZjWmmswlwCGbMNbC1HqL6vCJLiVH+YW+NyqoOBXUP0='}.json`)
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
